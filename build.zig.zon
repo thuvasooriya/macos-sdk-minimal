@@ -1,0 +1,15 @@
+.{
+    .name = .macos_sdk_minimal,
+    .version = "14.0.0",  // Matches macOS SDK version
+    .fingerprint = 0xcfe19bda7d7f9625,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+        "usr",
+        "System",
+    },
+}
